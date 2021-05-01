@@ -1,7 +1,5 @@
-﻿using System.Data;
-using System;
+﻿using System;
 using System.Drawing;
-using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
@@ -20,6 +18,9 @@ namespace BadAppleAscii
             List<String> frames = new List<String>();
             int quantFrames = Directory.GetFiles(@"BadApple\frames").Length;
             int frameIndex = 1;
+            
+            int width = Console.WindowWidth - 1;
+            int height = Console.WindowHeight - 1;
 
             Console.Write("Loading the animation frames, please wait : ");
             while (true)
@@ -33,12 +34,12 @@ namespace BadAppleAscii
 
                 using (Bitmap image = new Bitmap(frame))
                 {
-                    Bitmap bmp = new Bitmap(Console.WindowWidth - 1,Console.WindowHeight - 2);
+                    Bitmap bmp = new Bitmap(width,height);
                     Graphics g = Graphics.FromImage(bmp);
-                    g.DrawImage(image, 0, 0, Console.WindowWidth - 1, Console.WindowHeight - 2);
+                    g.DrawImage(image, 0, 0, width,height);
 
                     StringBuilder sb = new StringBuilder();
-                    String chars = " .+@";
+                    String chars = " .*#%@";
 
                     for (int y = 0; y < bmp.Height; y++)
                     {
@@ -64,7 +65,7 @@ namespace BadAppleAscii
 
                     int percentage = (int)((frames.Count / (float)(quantFrames)) * 100);
 
-                   Console.SetCursorPosition(44, Console.CursorTop);
+                   Console.SetCursorPosition(43, Console.CursorTop);
                    Console.Write("|"+ percentage.ToString() + "%" + " | processed frames : " + frames.Count.ToString()+" ");
                 }
             }
