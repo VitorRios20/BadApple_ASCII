@@ -21,7 +21,7 @@ namespace BadAppleAscii
             int quantFrames = Directory.GetFiles(@"BadApple\frames").Length;
             int frameIndex = 1;
 
-            Console.Write("Carregando frames da animação, aguarde : ");
+            Console.Write("Loading the animation frames, please wait : ");
             while (true)
             {
                 string frame = @"BadApple\frames\" + frameIndex.ToString() +".png";
@@ -64,7 +64,7 @@ namespace BadAppleAscii
 
                     int percentage = (int)((frames.Count / (float)(quantFrames)) * 100);
 
-                   Console.SetCursorPosition(42, Console.CursorTop);
+                   Console.SetCursorPosition(44, Console.CursorTop);
                    Console.Write("|"+ percentage.ToString() + "%" + " | processed frames : " + frames.Count.ToString()+" ");
                 }
             }
@@ -72,7 +72,7 @@ namespace BadAppleAscii
             AudioFileReader reader = new AudioFileReader(@"BadApple\audio.wav");
             WaveOutEvent woe = new WaveOutEvent();
             woe.Init(reader);
-            Console.WriteLine("\n\n aperte ENTER pra continuar!");
+            Console.WriteLine("\n\n press ENTER to start!");
             Console.ReadLine();
             woe.Play();
 
@@ -87,7 +87,7 @@ namespace BadAppleAscii
                 Console.SetCursorPosition(0, 0);
                 Console.WriteLine(frames[frame].ToString());
             }
-            Console.WriteLine("END");
+            Console.WriteLine("The END, bye:)");
             Console.ReadLine();
         }
     }

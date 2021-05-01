@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\BadApple_ASCII.csproj": {}
+    "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\BadApple_ASCII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\BadApple_ASCII.csproj": {
+    "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\BadApple_ASCII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\BadApple_ASCII.csproj",
+        "projectUniqueName": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\BadApple_ASCII.csproj",
         "projectName": "BadApple_ASCII",
-        "projectPath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\BadApple_ASCII.csproj",
+        "projectPath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\BadApple_ASCII.csproj",
         "packagesPath": "C:\\Users\\riosv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\obj\\",
+        "outputPath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

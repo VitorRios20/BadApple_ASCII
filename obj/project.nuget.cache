@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SCkoEB7TMU5UnViXrIbevcg3+7QDgFfz2sFajG/TJi1ze3OtRjByhQmfT/Ti1eNiH5sa13Z1DIr/XQ4ixcJ1ZA==",
+  "dgSpecHash": "nbsLURJtjwSbq2anKW74ftWga12Yjob5w/boMsyr8474Mdxeji8QqcB6y8auVix/PL2sXZY4P1IAV+9M+1YrWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\BadApple_ASCII\\BadApple_ASCII.csproj",
+  "projectFilePath": "C:\\Users\\riosv\\Documents\\ASCII_Animation\\Nouveau dossier\\BadApple_ASCII\\BadApple_ASCII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\riosv\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\riosv\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
